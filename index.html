@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaanku - IANA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #f0f0f0 0%, #ffc0cb 100%);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 192, 203, 0.3);
+            border-bottom: 2px solid #ddd;
+        }
+        h1 {
+            color: #8b5a7b;
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .owner {
+            color: #a0522d;
+            font-style: italic;
+            margin-top: 5px;
+        }
+        .book-animation {
+            text-align: center;
+            padding: 30px;
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        .book-icon {
+            font-size: 4em;
+            color: #ff69b4;
+            margin: 20px 0;
+        }
+        .quotes-section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .quote {
+            font-style: italic;
+            font-size: 1.2em;
+            color: #8b5a7b;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .benefits {
+            list-style-type: none;
+            padding: 0;
+        }
+        .benefits li {
+            background: #ffc0cb;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            color: #333;
+        }
+        .library-section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .category {
+            background: rgba(255, 255, 255, 0.7);
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .category h2 {
+            color: #ff69b4;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .book {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 0;
+            padding: 10px;
+            background: #f8f8f8;
+            border-radius: 5px;
+        }
+        .book a {
+            color: #8b5a7b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .book a:hover {
+            color: #ff69b4;
+        }
+        .closing-quote {
+            text-align: center;
+            font-size: 1.1em;
+            color: #a0522d;
+            margin: 30px 0;
+            padding: 15px;
+            background: rgba(255, 192, 203, 0.3);
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(139, 90, 123, 0.2);
+            margin-top: 40px;
+        }
+        .social-links {
+            margin: 10px 0;
+        }
+        .social-links a {
+            color: #ff69b4;
+            font-size: 1.5em;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .social-links a:hover {
+            color: #8b5a7b;
+        }
+        @media (max-width: 600px) {
+            .book {
+                flex-direction: column;
+                text-align: center;
+            }
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Perpustakaanku</h1>
+        <p class="owner">Oleh: IANA</p>
+    </header>
+
+    <div class="book-animation">
+        <i class="fas fa-book-open book-icon"></i>
+        <p style="font-size: 1.1em; color: #8b5a7b;">Selamat datang di perpustakaan digital saya! 📚✨</p>
+    </div>
+
+    <section class="quotes-section">
+        <h2 style="text-align: center; color: #ff69b4;">Mengapa Membaca Penting?</h2>
+        <div class="quote">“Siapa yang enggan bersusah payah belajar sejenak, akan menanggung pahitnya kebodohan sepanjang hidupnya.” — Ali bin Abi Thalib</div>
+        <p style="text-align: center; font-weight: bold;">Manfaat Membaca Buku:</p>
+        <ul class="benefits">
+            <li>Meningkatkan pengetahuan dan wawasan tentang berbagai topik.</li>
+            <li>Mengurangi stres dan meningkatkan kesehatan mental.</li>
+            <li>Memperbaiki kemampuan berpikir kritis dan kreativitas.</li>
+            <li>Membantu pengembangan diri dan karir jangka panjang.</li>
+        </ul>
+    </section>
+
+    <section class="library-section">
+        <div class="category">
+            <h2>E BOOK SELF IMPROVEMENT</h2>
+            <div class="book">
+                <span>Yuk,jadi versi terbaik dirimu mulai hari ini!</span>
+                <a href="https://drive.google.com/drive/folders/1G4aVwSo3pSSOVGxe5oR28Tlg5cApFQYp" target="_blank">Baca di Drive →</a>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>E BOOK NOVEL</h2>
+            <div class="book">
+                <span>Bukan baru ,tapi selalu bermakna.Yuk baca lagi novel lama!</span>
+                <a href="https://drive.google.com/drive/folders/1lxbg35XxaXoz_0xitkcWfAN079DIjwIc" target="_blank">Baca di Drive →</a>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>E BOOK Trade, Forex, Saham</h2>
+            <div class="book">
+                <span>Biar makin paham cara cerdas mengelola peluang dan risiko</span>
+                <a href="https://drive.google.com/drive/folders/1wJ074tluNNHpM7x6E9jGZOwkl7V-PJZ-" target="_blank">Baca di Drive →</a>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>E BOOK SEJARAH</h2>
+            <div class="book">
+                <span>Baca sejarah, kenali asal-usul dan ambil pelajaran</span>
+                <a href="https://drive.google.com/drive/folders/1N8y9xieUyEkSZVaCjIuMn9E-LiEDQpMp" target="_blank">Baca di Drive →</a>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>E BOOK muslim</h2>
+            <div class="book">
+                <span>Isi hati dengan bacaan yang menuntun pada kebaikan</span>
+                <a href="https://drive.google.com/drive/folders/15EWB18KEnhGmcg5zpowzhaj0lrwRRNFh" target="_blank">Baca di Drive →</a>
+            </div>
+        </div>
+		
+        <div class="category">
+            <h2>COMPLETE FINANCIAL FREEDOM & INVEST COURSE</h2>
+            <div class="book">
+                <span>Raih kebebasan finansialmu!</span>
+                <a href="https://drive.google.com/drive/folders/131L1d99yMwBVGrJW3wSBwtuim8ejUb1T" target="_blank">Baca di Drive →</a>
+			</div>
+        </div>
+		
+        <div class="category">
+            <h2>MATERI CRYPTO</h2>
+            <div class="book">
+                <span>Belajar CRYPTO hari ini, nikmati hasilnya esok!</span>
+                <a href="https://drive.google.com/drive/folders/1yuSyCTkCuvhqNwXbdvZCqiRY6dygitSN" target="_blank">Baca di Drive →</a>
+			</div>
+        </div>
+		
+        <div class="category">
+            <h2>E BOOK Programing dasar</h2>
+            <div class="book">
+                <span>Ayo mulai petualangan coding, pahami logika sederhana yang bisa membuka pintu masa depan digitalmu</span>
+                <a href="https://drive.google.com/drive/folders/11sXCbA_toQwPNA0IbxGUGlLX3NfBfh6h" target="_blank">Baca di Drive →</a>	
+			</div>
+        </div>
+		
+        <div class="category">
+            <h2>E BOOK UTBK, ESPN, SNBP</h2>
+            <div class="book">
+                <span>Asah kemampuanmu lewat latihan soal, setiap jawaban mendekatkanmu pada kampus impian.</span>
+                <a href="https://drive.google.com/drive/folders/1iOLTKXWkdCH1j1Jr1bdw7-LCSojAyA4M" target="_blank">Baca di Drive →</a>		
+			</div>
+        </div>
+		
+        <div class="category">
+            <h2>E BOOK Bahasa Inggris</h2>
+            <div class="book">
+                <span>Belajar bahasa dunia, biar komunikasimu makin luas tanpa batas</span>
+                <a href="https://drive.google.com/drive/folders/14BgRUW9B8VVJOY7fpwuaPLup5F9u3cNn" target="_blank">Baca di Drive →</a>	
+			</div>
+        </div>
+		
+        <div class="category">
+            <h2>COSMOLOGY dll</h2>
+            <div class="book">
+                <span>Selami rahasia alam semesta, dari bintang hingga galaksi yang menakjubkan</span>
+                <a href="https://drive.google.com/drive/folders/1zCH115R-2PD4Lzth_Tpqmjq7plqmSFU0" target="_blank">Baca di Drive →</a>
+			</div>
+        </div>
+		
+        <div class="category">
+            <h2>E BOOK RUMUS MATEMATIKA</h2>
+            <div class="book">
+                <span>Temukan keindahan pola dan logika, karena angka selalu punya cerita</span>
+                <a href="https://drive.google.com/drive/folders/1CnSJqe5GQjasiBZLjMv9j6zPI72dzVsf" target="_blank">Baca di Drive →</a>
+			</div>
+        </div>
+		
+        <div class="category">
+            <h2>E BOOK Biologi</h2>
+            <div class="book">
+                <span>Kenali kehidupan dari sel terkecil hingga makhluk hidup terbesar, semua punya keajaiban</span>
+                <a href="https://drive.google.com/drive/folders/1-Ny4NZ4R937_IsT7iOwKZf96G6Dbpyx1" target="_blank">Baca di Drive →</a>
+				
+    </section>
+
+    <div class="closing-quote">
+        <p>"Semoga perpustakaan ini bermanfaat bagi Anda! Ingatlah, jangan pernah pantang menyerah dalam mengejar ilmu – setiap halaman adalah langkah menuju kesuksesan."</p>
+    </div>
+
+    <footer>
+        <p>Hubungi saya di media sosial:</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/riana.jw" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/@riana.jw" target="_blank" title="TikTok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="https://youtube.com/@riana-jw" target="_blank" title="YouTube">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+        <p style="margin-top: 10px; font-size: 0.9em; color: #666;">© 2025 Perpustakaanku by IANA. Semoga bermanfaat.</p>
+    </footer>
+</body>
+</html>
